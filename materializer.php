@@ -56,6 +56,7 @@ class MaterializerPlugin extends Plugin
 
         if ($config['load_css']) {
             $materialize_bits[] = 'plugin://materializer/css/materialize.css';
+            $materialize_bits[] = 'plugin://materializer/css/materialdesignicons.css';
         }
         if ($config['load_js']) {
             $materialize_bits[] = 'plugin://materializer/js/materialize.js';
