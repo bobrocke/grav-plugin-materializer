@@ -1,13 +1,13 @@
 name: Materializer
 version: 1.0.0
 description: "Loads the Materialize Framework v0.95.3 assets for any plugin/theme that needs it"
-icon: bold
+icon: google
 author:
   name: Bob Rockefeller
   email: bob@bobrockefeller.com
   url: http://www.bobrockefeller.com
 homepage: https://github.com/bobrocke/grav-plugin-materializer
-demo:
+demo: http://materialize.bobrockefeller.com/
 keywords: materialize, css, plugin, framework
 bugs: https://github.com/bobrocke/grav-plugin-materializer/issues
 license: MIT
