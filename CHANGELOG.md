@@ -1,6 +1,7 @@
-# v1.0.0
+# v1.1.0
 ## 02/28/2015
 
-2. [](#new)
+1. [](#new)
     * Initial Release
-
+2. [](#improved)
+    * Changed to a larger Material Design icon font set

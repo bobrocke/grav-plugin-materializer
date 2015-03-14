@@ -1,7 +1,8 @@
 # Grav Materializer Plugin
 
+Materializer is a [Grav](http://github.com/getgrav/grav) plugin that can be used as a dependency for other themes and plugins to load the [Materialize framework](http://materializecss.com).  The main purpose of this plugin is to allow the Materialize theme to depend on the Materializer's CSS/JS and to allow the plugin to be updated independently of the theme itself.
 
-`materializer` is a [Grav](http://github.com/getgrav/grav) plugin that can be used as a dependency for other themes and plugins to load the [Materialize framework](http://materializecss.com).  The main purpose of this plugins is to allow the Materialize theme to depend on the Materializer's CSS/JS and allow the plugin to be updated independently of the theme itself.
+Rather than using the icon font that comes with the Materialize Framework, Materializer uses a newer, expanded icon font: [Material Design Icons](http://materialdesignicons.com).
 
 # Installation
 
@@ -13,15 +14,15 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
 ## Manual Installation
 
-If for some reason you can't use GPM you can manually install this plugin. Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `bootstrapper`.
+If for some reason you can't use GPM you can manually install this plugin. Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `materializer`.
 
-You should now have all the plugin files under
+You should now have all the plugin files under:
 
 	/your/site/grav/user/plugins/materializer
 
 # Usage
 
-To best understand what Materializer plugin provides, you should read through the original [Materialize framework documentation](http://materializecss.com).
+To best understand what the Materializer plugin provides, you should read through the original [Materialize framework documentation](http://materializecss.com).
 
 ## Configuration
 
