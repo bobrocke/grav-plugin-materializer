@@ -1,5 +1,5 @@
 name: Materializer
-version: 1.0.0
+version: 1.1.2
 description: "Loads the Materialize Framework v0.95.3 assets for any plugin/theme that needs it"
 icon: google
 author:

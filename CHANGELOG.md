@@ -1,7 +1,17 @@
 # v1.1.0
-## 03/14/2015
+## 02/28/2015
 
 1. [](#new)
     * Initial Release
-2. [](#improved)
+
+# v1.1.0
+## 03/14/2015
+
+1. [](#improved)
     * Changed to a larger Material Design icon font set
+
+# v1.1.1 and v1.1.2
+## 03/14/2015
+
+1. [](#improved)
+    * Cleaned up changelog and blueprints files.
