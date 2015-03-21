@@ -15,3 +15,9 @@
 
 1. [](#improved)
     * Cleaned up changelog and blueprints files.
+
+# v1.1.3
+## 03/21/2015
+
+1. [](#improved)
+    * Updated the Material Design Icon font to v1.0.8b.
