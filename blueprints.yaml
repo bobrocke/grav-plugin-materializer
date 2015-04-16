@@ -1,6 +1,6 @@
 name: Materializer
-version: 1.2.0
-description: "Loads the Materialize Framework v0.95.3 assets for any plugin/theme that needs it"
+version: 1.2.1
+description: "Loads the Materialize Framework assets for any plugin/theme that needs it"
 icon: google
 author:
   name: Bob Rockefeller
