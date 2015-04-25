@@ -1,3 +1,11 @@
+# 1.2.2
+## 04/25/2015
+
+1. [](#improved)
+  * Updated to Material Design Icons 1.0.8b
+  * Some icon names may have changed, check your markup
+
+
 # 1.2.1
 ## 04/16/2015
 
