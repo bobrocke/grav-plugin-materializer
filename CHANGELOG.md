@@ -1,3 +1,11 @@
+# 1.3.0
+## 06/27/15
+
+1. [](#improved)
+  * Updated to Material Design Icons 1.1.34
+  * Some icon names may have changed, check your markup
+  * Updated to MaterializeCSS 0.97
+
 # 1.2.2
 ## 04/25/2015
 
