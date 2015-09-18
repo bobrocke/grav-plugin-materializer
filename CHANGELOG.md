@@ -1,3 +1,10 @@
+# 1.3.2
+## 09/18/15
+
+1. [](#bugfix)
+  * Bypassed the plug-in's code if the Admin is active.
+
+
 # 1.3.1
 ## 08/29/15
 
