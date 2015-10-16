@@ -1,0 +1,25 @@
+*** To update the version of Materializer to the latest material.css framework revision. ***
+
+Get the latest version from their GitHub repository: https://github.com/Dogfalo/materialize/releases
+
+Copy the code into the www.materialize.dev web site:
+	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer
+
+	materialize/css/materialize.css but not materialize.min.css
+	materialize/font/roboto but not material-design-icons
+	materialize/js/materialize.js but not materialize.min.js
+
+
+*** To update the version of Material Design Icons to the latest materialdesignicons.com revision. ***
+
+Get the latest version from website download button.
+
+Copy the fonts into the www.materialize.dev web site:
+	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer/font/material-design-icons
+
+Copy the .css, not the .min.css or the .map, into the www.materialize.dev web site:
+	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer/css
+
+	Delete the reference to the .map file at the end of the materialdesignicons.css file.
+
+	Change the source of the fonts from ../fonts/ to ../font/mdi/
