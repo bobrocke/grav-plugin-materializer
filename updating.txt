@@ -1,6 +1,7 @@
 *** To update the version of Materializer to the latest material.css framework revision. ***
 
-Get the latest version from their GitHub repository: https://github.com/Dogfalo/materialize/releases
+Get the latest version from their GitHub repository:
+	https://github.com/Dogfalo/materialize/releases
 
 Copy the code into the www.materialize.dev web site:
 	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer
@@ -15,7 +16,7 @@ Copy the code into the www.materialize.dev web site:
 Get the latest version from website download button.
 
 Copy the fonts into the www.materialize.dev web site:
-	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer/font/material-design-icons
+	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer/font/mdi
 
 Copy the .css, not the .min.css or the .map, into the www.materialize.dev web site:
 	/Users/bob/Dropbox/SyncedSites/vhosts/www.materialize.dev/user/plugins/materializer/css
