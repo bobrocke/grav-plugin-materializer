@@ -1,3 +1,10 @@
+# 1.6.0
+## 11/29/15
+
+1. [](#improved)
+  * Updated the material.css framework to v0.97.3
+
+
 # 1.5.0
 ## 11/14/15
 
