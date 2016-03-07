@@ -1,3 +1,18 @@
+# 1.7.0
+## 1/12/16
+
+1. [](#improved)
+  * Updated the material.css framework to v0.97.5
+  * Updated the Material Design Icons to v1.4.57
+
+
+# 1.6.0
+## 11/29/15
+
+1. [](#improved)
+  * Updated the material.css framework to v0.97.3
+
+
 # 1.5.0
 ## 11/14/15
 
