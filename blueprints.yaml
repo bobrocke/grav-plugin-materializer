@@ -55,3 +55,22 @@ form:
         0: Disabled
       validate:
         type: bool
+    use_cdn:
+      type: toggle
+      label: Use CDN
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    mode:
+      type: select
+      size: small
+      label: Mode
+      default: 'production'
+      options:
+        development: Development
+        production: Production
+
