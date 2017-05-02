@@ -33,3 +33,5 @@ enabled: true                   # Enable / Disable this plugin
 always_load: false              # If set to `false` the Theme must have `public $load_materializer_plugin = true;` to add the CSS/JS
 load_core_css: true             # Load the core `materializer.css` CSS file
 load_core_js: true              # Load the core `materializer.js` JS file
+mode: production                # If set to `production`, load minified CSS/JS
+use_cdn: false                  # If set to `true` use CDN instead of local files

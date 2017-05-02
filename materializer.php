@@ -51,15 +51,28 @@ class MaterializerPlugin extends Plugin
 	public function onTwigSiteVariables()
 	{
 		$config = $this->config->get('plugins.materializer');
+		$mode = $config['mode'] == 'production' ? '.min' : '';
 
 		$materialize_bits = [];
+		$currentVersion = '0.98.2';
 
-		if ($config['load_css']) {
-				$materialize_bits[] = 'plugin://materializer/css/materialize.css';
-				$materialize_bits[] = 'plugin://materializer/css/materialdesignicons.css';
-		}
-		if ($config['load_js']) {
-				$materialize_bits[] = 'plugin://materializer/js/materialize.js';
+		if ($config['use_cdn']) {
+			if ($config['load_css']) {
+					$materialize_bits[] = "https://cdnjs.cloudflare.com/ajax/libs/materialize/{$currentVersion}/css/materialize{$mode}.css";
+					// Material Design Icons does not have a CDN
+					$materialize_bits[] = "plugin://materializer/css/materialdesignicons{$mode}.css";
+			}
+			if ($config['load_js']) {
+					$materialize_bits[] = "https://cdnjs.cloudflare.com/ajax/libs/materialize/{$currentVersion}/js/materialize{$mode}.js";
+			}
+		} else {
+			if ($config['load_css']) {
+					$materialize_bits[] = "plugin://materializer/css/materialize{$mode}.css";
+					$materialize_bits[] = "plugin://materializer/css/materialdesignicons{$mode}.css";
+			}
+			if ($config['load_js']) {
+					$materialize_bits[] = "plugin://materializer/js/materialize{$mode}.js";
+			}
 		}
 
 		$assets = $this->grav['assets'];
