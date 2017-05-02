@@ -1,3 +1,12 @@
+# 1.7.1
+## 4/27/17
+
+1. [](#improved)
+	* Updated Materialize framework to v0.98.2
+	* Updated Material Design Icons to v1.9.33
+	* Add option to use CDN for Materialize
+	* Add option to use minified CSS/JS
+
 # 1.7.0
 ## 1/12/16
 
