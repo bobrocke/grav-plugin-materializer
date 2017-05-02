@@ -10,7 +10,6 @@ Copy the code into the www.materialize.dev web site:
 	materialize/font/roboto but not material-design-icons
 	materialize/js/materialize.js but not materialize.min.js
 
-
 *** To update the version of Material Design Icons to the latest materialdesignicons.com revision. ***
 
 Get the latest version from website download button.
