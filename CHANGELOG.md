@@ -1,3 +1,8 @@
+# 1.8.1
+## 5/3/17
+1. [](#bugfix)
+  * Compiled .css files into .min.css also.
+
 # 1.8.0
 ## 5/2/17
 
