@@ -12,6 +12,7 @@ keywords: materialize, css, plugin, framework, material design
 bugs: https://github.com/bobrocke/grav-plugin-materializer/issues
 license: MIT
 
+
 form:
   validation: strict
   fields:

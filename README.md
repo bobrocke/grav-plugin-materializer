@@ -24,6 +24,7 @@ You should now have all the plugin files under:
 
 To best understand what the Materializer plugin provides, you should read through the original [Materialize framework documentation](http://materializecss.com).
 
+
 ## Configuration
 
 Materializer is **enabled** but **not always loaded** by default.  You can change this behavior by setting `always_load: true` in the plugin's configuration.  Simply copy the `user/plugins/materializer/materializer.yaml` into `user/config/plugins/materializer.yaml` and make your modifications.

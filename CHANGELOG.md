@@ -1,11 +1,20 @@
+# 1.8.1
+## 5/3/17
+
+1. [](#bugfix)
+  * Included the missing .min.css files.
+  * Included the missing .min.js file.
+
+
 # 1.8.0
-## 4/27/17
+## 5/2/17
 
 1. [](#improved)
 	* Updated Materialize framework to v0.98.2
 	* Updated Material Design Icons to v1.9.33
-	* Add option to use CDN for Materialize
-	* Add option to use minified CSS/JS
+	* Added the option to use a CDN for Materialize
+	* Added the option to use minified CSS and/or JS
+
 
 # 1.7.0
 ## 1/12/16
